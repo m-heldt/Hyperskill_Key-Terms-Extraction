@@ -1,0 +1,5 @@
+content:
+- Text normalization
+- Comparisons
+- POS tagging
+- TF-IDF vectorizer

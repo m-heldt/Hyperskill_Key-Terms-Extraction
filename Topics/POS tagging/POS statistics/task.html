@@ -1,0 +1,6 @@
+<h2>POS statistics</h2>
+<html><body><p>Find the most frequent tag in a given sentence. Output the right tag name. If there are two or more tags with a similar frequency, output the first one.</p>
+<p>Don't forget to tokenize the input sentence.</p>
+<p>NLTK tagsets usually contain tuples. You can unpack a tuple with <code class="java">for (word, pos) in tagged</code></p>
+<p>You may create a list of all POS tags in a sentence and then go through each of them. A for loop can help you.</p>
+<p>You can count POS tags in the following way: <code class="java">['NN', 'VBZ', 'ADJ', 'NN'].count('NN')</code>. The output will be: <code class="java">2</code>. Another way to count the POS tags is to create a list of words of a specific POS and then count it with <code class="java">len()</code>.</p></body></html><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">The Tiber island is the only river island in the part of the Tiber which runs through Rome</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">DT</code></pre><br><br><br><font color="gray">Memory limit: 512 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
